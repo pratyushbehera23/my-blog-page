@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "image": "https://cdn.pixabay.com/photo/2023/02/05/17/25/leaves-7770035_1280.jpg",
+        "tag": "tag1",
+        "heading": "Heading1",
+        "author": "Pratyush",
+        "date": "21/2/23",
+        "organic": true,
+        "description": "Hello this is about..."
+    },
+    {
+        "id": 1,
+        "image": "https://cdn.pixabay.com/photo/2023/02/13/10/30/eye-7787024_1280.jpg",
+        "tag": "tag2",
+        "heading": "Heading2",
+        "author": "Miracle",
+        "date": "2/3/23",
+        "organic": true,
+        "description": "There's a interesting say.."
+    },
+    {
+        "id": 2,
+        "image": "https://cdn.pixabay.com/photo/2023/02/08/07/32/vietnamese-woman-7775904_1280.jpg",
+        "tag": "tag3",
+        "heading": "Heading3",
+        "author": "DevTeam",
+        "date": "15/3/23",
+        "organic": true,
+        "description": "Is this magic or ..."
+    },
+    {
+        "id": 0,
+        "image": "https://cdn.pixabay.com/photo/2023/01/22/13/46/swans-7736415_1280.jpg",
+        "tag": "tag1",
+        "heading": "Heading1",
+        "author": "Pratyush",
+        "date": "21/2/23",
+        "organic": true,
+        "description": "This was the first..."
+    },
+    {
+        "id": 1,
+        "image": "https://cdn.pixabay.com/photo/2023/01/21/13/39/night-sky-7733876_1280.jpg",
+        "tag": "tag2",
+        "heading": "Heading2",
+        "author": "Miracle",
+        "date": "2/3/23",
+        "organic": true,
+        "description": "Let me love you. What..."
+    }
+]

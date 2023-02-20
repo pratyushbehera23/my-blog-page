@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%HEADING%} /// DevBlog</title>
+    <style>
+        *, *::before, *::after{
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+        }
+        html{
+            font-size: 62.5%;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 5rem 5rem 10rem;
+            line-height: 1.7;
+            font-family: sans-serif;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Node Farm</h1>
+        <figure class="product">
+            <div class="product_organic {%NOT_ORGANIC%}"><h5>Organic</h5></div>
+            <a href="#" class="product_back"><span class="emoji-left">👈</span>Back</a>
+            <div class="product_hero">
+                <span class="product_emoji product_emoji-1">{%IMAGE%}</span>
+            </div>
+            <h2 class="product_name">Fresh Avocados</h2>
+            <div class="product_details">
+                <p><span class="emoji-left">🌏</span> From {%TAG%}</p>
+                <p><span class="emoji-left">🔥</span> {%AUTHOR%}</p>
+                <p><span class="emoji-left">📦</span> {%DATE%}</p>
+                <p><span class="emoji-left">🔖</span> {%HEADING%}</p>
+            </div>
+            <a href="#" class="product_link">
+                <span class="emoji-left">🛒</span>
+                <span>Add to shopping cart ({%DATE%})</span>
+            </a>
+            <p class="product_description">{%DESCRIPTION%}</p>
+        </figure>
+    </div>
+</body>
+</html>
